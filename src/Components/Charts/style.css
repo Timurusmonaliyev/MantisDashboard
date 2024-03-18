@@ -1,0 +1,18 @@
+.MuiChartsLegend-mark {
+  display: none;
+  z-index: -999 !important;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1025px) {
+  .cols2 {
+    display: grid;
+    grid-template-columns: auto !important;
+    width: 100% !important;
+    margin-top: 5% !important;
+  }
+  .cartochta {
+    width: 100% !important;
+    height: 70px !important;
+  }
+}
