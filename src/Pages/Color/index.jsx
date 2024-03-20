@@ -506,6 +506,41 @@ const Color = () => {
                       </span>
                     </span>
                   </span>
+                  <span>
+                    <br />
+                    1.
+                  </span>
+                  <span>
+                    <span style={({ paddingLeft: "2%" }, pink)}>
+                      <span>
+                        {chap}
+                        No display name
+                        {ong}
+                      </span>
+                    </span>
+                    <br />
+                    <span style={({ paddingLeft: "2%" }, pink)}>
+                      <span>
+                        {chap}h bgcolor="primary.lighter" <br /> dark data
+                        color: '#e6f7ff', label: 'Blue-1'
+                        {ong}
+                      </span>
+                    </span>
+                    <span style={({ paddingLeft: "2%" }, pink)}>
+                      <span>
+                        {chap}ter" <br /> dark data color: '#e6f7ff', label:
+                        'Blue-1'
+                        {ong}
+                      </span>
+                    </span>
+                    <span style={({ paddingLeft: "2%" }, pink)}>
+                      <span>
+                        {chap}primary.lighter" <br /> dark data color:
+                        '#e6f7ff', label: 'Blue-1'
+                        {ong}
+                      </span>
+                    </span>
+                  </span>
                 </code>
               </pre>
             )}

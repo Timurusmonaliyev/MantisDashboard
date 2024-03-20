@@ -1,10 +1,9 @@
 import { Box, Card } from "@mui/material";
 import React from "react";
-import "./style.css";
 function Cards() {
   return (
     <div>
-      <p>Dashboard</p>
+      <p className="font-medium">Dashboard</p>
       <br />
       <div
         style={{
@@ -15,152 +14,152 @@ function Cards() {
         }}
         className="grid"
       >
-        <Card style={{ width: "100%", padding: "6%" }} className="cards">
+        <Card style={{ width: "100%", padding: "14px" }} className="cards">
           <p style={{ fontSize: "14px", color: "#8c8c8c" }}>Total Page Views</p>
           <Box
             style={{
               display: "flex",
               alignItems: "center",
               fontWeight: "600",
+              fontSize: "20px",
+              marginTop: "1%",
+              gap: "10px",
             }}
-            gap={"5%"}
-            fontSize={"20px"}
-            marginTop={"1%"}
           >
             4,42,236
             <p
               style={{
-                height: "24px",
-                width: "75px",
-                background: "#1677ff",
-                textAlign: "center",
-                borderRadius: "7px",
-                color: "white",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 fontSize: "13px",
                 fontWeight: "medium",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                textAlign: "center",
+                borderRadius: "7px",
+                background: "#1677ff",
+                color: "white",
+                width: "75px",
+                height: "24px",
               }}
             >
               59.3%
             </p>
           </Box>
-          <p style={{ marginTop: "5%" }}>
+          <p style={{ marginTop: "10px" }}>
+            <span style={{ fontSize: "12px" }}>
+              You made an extra <span style={{ color: "#1677FF" }}>35,000</span>
+              this year
+            </span>
+          </p>
+        </Card>
+        <Card style={{ width: "100%", padding: "14px" }} className="cards">
+          <p style={{ fontSize: "14px", color: "#8c8c8c" }}>Total Page Views</p>
+          <Box
+            style={{
+              display: "flex",
+              alignItems: "center",
+              fontWeight: "600",
+              fontSize: "20px",
+              marginTop: "1%",
+              gap: "10px",
+            }}
+          >
+            4,42,236
+            <p
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                fontSize: "13px",
+                fontWeight: "medium",
+                textAlign: "center",
+                borderRadius: "7px",
+                background: "#1677ff",
+                color: "white",
+                width: "75px",
+                height: "24px",
+              }}
+            >
+              59.3%
+            </p>
+          </Box>
+          <p style={{ marginTop: "10px" }}>
             <span style={{ fontSize: "12px" }}>
               You made an extra <span style={{ color: "#1677FF" }}>35,000</span>{" "}
               this year
             </span>
           </p>
         </Card>
-        <Card style={{ width: "100%", padding: "6%" }} className="cards">
+        <Card style={{ width: "100%", padding: "14px" }} className="cards">
           <p style={{ fontSize: "14px", color: "#8c8c8c" }}>Total Page Views</p>
           <Box
             style={{
               display: "flex",
               alignItems: "center",
               fontWeight: "600",
+              fontSize: "20px",
+              marginTop: "1%",
+              gap: "10px",
             }}
-            gap={"5%"}
-            fontSize={"20px"}
-            marginTop={"1%"}
           >
             4,42,236
             <p
               style={{
-                height: "24px",
-                width: "75px",
-                background: "#1677ff",
-                textAlign: "center",
-                borderRadius: "7px",
-                color: "white",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 fontSize: "13px",
                 fontWeight: "medium",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              59.3%
-            </p>
-          </Box>
-          <p style={{ marginTop: "5%" }}>
-            <span style={{ fontSize: "12px" }}>
-              You made an extra <span style={{ color: "#1677FF" }}>35,000</span>{" "}
-              this year
-            </span>
-          </p>
-        </Card>
-        <Card style={{ width: "100%", padding: "6%" }} className="cards">
-          <p style={{ fontSize: "14px", color: "#8c8c8c" }}>Total Page Views</p>
-          <Box
-            style={{
-              display: "flex",
-              alignItems: "center",
-              fontWeight: "600",
-            }}
-            gap={"5%"}
-            fontSize={"20px"}
-            marginTop={"1%"}
-          >
-            4,42,236
-            <p
-              style={{
-                height: "24px",
-                width: "75px",
+                textAlign: "center",
+                borderRadius: "7px",
                 background: "#faad14",
-                textAlign: "center",
-                borderRadius: "7px",
                 color: "white",
-                fontSize: "13px",
-                fontWeight: "medium",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                width: "75px",
+                height: "24px",
               }}
             >
               59.3%
             </p>
           </Box>
-          <p style={{ marginTop: "5%" }}>
+          <p style={{ marginTop: "10px" }}>
             <span style={{ fontSize: "12px" }}>
               You made an extra <span style={{ color: "#faad14" }}>35,000</span>{" "}
               this year
             </span>
           </p>
         </Card>
-        <Card style={{ width: "100%", padding: "6%" }} className="cards">
+        <Card style={{ width: "100%", padding: "14px" }} className="cards">
           <p style={{ fontSize: "14px", color: "#8c8c8c" }}>Total Page Views</p>
           <Box
             style={{
               display: "flex",
               alignItems: "center",
               fontWeight: "600",
+              fontSize: "20px",
+              marginTop: "1%",
+              gap: "10px",
             }}
-            gap={"5%"}
-            fontSize={"20px"}
-            marginTop={"1%"}
           >
             4,42,236
             <p
               style={{
-                height: "24px",
-                width: "75px",
-                background: "#faad14",
-                textAlign: "center",
-                borderRadius: "7px",
-                color: "white",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 fontSize: "13px",
                 fontWeight: "medium",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                textAlign: "center",
+                borderRadius: "7px",
+                background: "#faad14",
+                color: "white",
+                width: "75px",
+                height: "24px",
               }}
             >
               59.3%
             </p>
           </Box>
-          <p style={{ marginTop: "5%" }}>
+          <p style={{ marginTop: "10px" }}>
             <span style={{ fontSize: "12px" }}>
               You made an extra <span style={{ color: "#1677F" }}>35,000</span>{" "}
               this year

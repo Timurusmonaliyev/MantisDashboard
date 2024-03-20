@@ -1,6 +1,5 @@
-import { AiOutlineBarcode } from "react-icons/ai"; 
+import { AiOutlineBarcode } from "react-icons/ai";
 import * as React from "react";
-
 import { AiOutlineLogin } from "react-icons/ai";
 import { BsCardList } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
@@ -13,7 +12,6 @@ import IconButton from "@mui/material/IconButton";
 import { NavLink, Route, Routes } from "react-router-dom";
 import { Badge } from "@mui/material";
 import Home from "../../Pages/Home";
-import Image from "../../Assets/Images/Без названия (1).png";
 import Imagesvg from "../../Assets/Images/image.png";
 import Color from "../../Pages/Color";
 import Typography from "../../Pages/Typography";
@@ -36,8 +34,9 @@ import Sample from "../../Pages/Sample";
 import Login from "../../Pages/Login";
 import Avaimg from "../../Assets/Images/Без названия.png";
 import Anticons from "../../Pages/Anticons/index.jsx";
+import Menubar from "./menu/index.jsx";
 
-const drawerWidth = 240;
+const drawerWidth = 270;
 
 const Sidebar = styled("sidebar", {
   shouldForwardProp: (prop) => prop !== "open",
@@ -125,22 +124,18 @@ export default function Drawers() {
             </div>
           </div>
           <div className="flex gap-2 items-center">
-            <button className="text-black text-[16px] rounded-md bg-gray-200 p-2">
+            <a
+              href="https://github.com/codedthemes/mantis-free-react-admin-template"
+              className="text-black text-[16px] rounded-md bg-gray-200 p-2"
+            >
               <AiFillGithub />
-            </button>
+            </a>
             <button className="text-black text-[16px] px-2 rounded-md bg-gray-200 p-1">
               <Badge badgeContent={4} color="primary">
                 <AiOutlineBell />
               </Badge>
             </button>
-            <div className="flex items-center gap-3">
-              <img
-                className="h-[35px] w-[35px] rounded-full"
-                src={Image}
-                alt=""
-              />
-              <p className="text-black text-[13px] font-semibold">John Deo</p>
-            </div>
+            <Menubar />
           </div>
         </div>
       </AppBar>
@@ -319,7 +314,7 @@ export default function Drawers() {
                 }
               >
                 <span>
-                <AiOutlineBarcode />
+                  <AiOutlineBarcode />
                 </span>
                 <span className="text-[14px]"> Shadow</span>
               </NavLink>

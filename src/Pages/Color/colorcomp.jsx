@@ -128,6 +128,74 @@ const Colorcomp = () => {
                     </span>
                   </span>
                 </span>
+                <br />
+                <span> 1.</span>
+                <span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}
+                      No display name
+                      {ong}
+                    </span>
+                  </span>
+                  <br />
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}h bgcolor="primary.lighter" <br /> dark data color:
+                      '#e6f7ff', label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}ter" <br /> dark data color: '#e6f7ff', label:
+                      'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}primary.lighter" <br /> dark data color: '#e6f7ff',
+                      label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                </span>
+                <span>
+                  <br />
+                  1.
+                </span>
+                <span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}
+                      No display name
+                      {ong}
+                    </span>
+                  </span>
+                  <br />
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}h bgcolor="primary.lighter" <br /> dark data color:
+                      '#e6f7ff', label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}ter" <br /> dark data color: '#e6f7ff', label:
+                      'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}primary.lighter" <br /> dark data color: '#e6f7ff',
+                      label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                </span>
               </code>
             </pre>
           )}
@@ -217,6 +285,74 @@ const Colorcomp = () => {
             <pre style={{ background: "#2b2b2b", color: "", padding: "10px" }}>
               <code className="w-10" style={{ fontSize: "12px" }}>
                 <span> 1.</span>
+                <span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}
+                      No display name
+                      {ong}
+                    </span>
+                  </span>
+                  <br />
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}h bgcolor="primary.lighter" <br /> dark data color:
+                      '#e6f7ff', label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}ter" <br /> dark data color: '#e6f7ff', label:
+                      'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}primary.lighter" <br /> dark data color: '#e6f7ff',
+                      label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                </span>
+                <br />
+                <span> 1.</span>
+                <span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}
+                      No display name
+                      {ong}
+                    </span>
+                  </span>
+                  <br />
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}h bgcolor="primary.lighter" <br /> dark data color:
+                      '#e6f7ff', label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}ter" <br /> dark data color: '#e6f7ff', label:
+                      'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}primary.lighter" <br /> dark data color: '#e6f7ff',
+                      label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                </span>
+                <span>
+                  <br />
+                  1.
+                </span>
                 <span>
                   <span style={({ paddingLeft: "2%" }, pink)}>
                     <span>
@@ -339,6 +475,74 @@ const Colorcomp = () => {
             <pre style={{ background: "#2b2b2b", color: "", padding: "10px" }}>
               <code className="w-10" style={{ fontSize: "12px" }}>
                 <span> 1.</span>
+                <span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}
+                      No display name
+                      {ong}
+                    </span>
+                  </span>
+                  <br />
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}h bgcolor="primary.lighter" <br /> dark data color:
+                      '#e6f7ff', label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}ter" <br /> dark data color: '#e6f7ff', label:
+                      'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}primary.lighter" <br /> dark data color: '#e6f7ff',
+                      label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                </span>
+                <br />
+                <span> 1.</span>
+                <span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}
+                      No display name
+                      {ong}
+                    </span>
+                  </span>
+                  <br />
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}h bgcolor="primary.lighter" <br /> dark data color:
+                      '#e6f7ff', label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}ter" <br /> dark data color: '#e6f7ff', label:
+                      'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                  <span style={({ paddingLeft: "2%" }, pink)}>
+                    <span>
+                      {chap}primary.lighter" <br /> dark data color: '#e6f7ff',
+                      label: 'Blue-1'
+                      {ong}
+                    </span>
+                  </span>
+                </span>
+                <span>
+                  <br />
+                  1.
+                </span>
                 <span>
                   <span style={({ paddingLeft: "2%" }, pink)}>
                     <span>

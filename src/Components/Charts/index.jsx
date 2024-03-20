@@ -1,7 +1,7 @@
 import React from "react";
 import "./linecharts";
 import "./style.css";
-import { Box, Card, CardContent, Typography } from "@mui/material";
+import { Box, Button, Card, CardContent, Typography } from "@mui/material";
 import Listmain from "./listmain";
 import LineCharts2 from "./linecharts2";
 import Firstchart from "./firstchart";
@@ -9,9 +9,6 @@ import BarChartteal from "./barchartteal";
 import Tabledashboard from "./tabledashboard";
 import Yellowchart from "./yellowchart";
 import "./style.css";
-// import { BarChart } from "@mui/x-charts/BarChart";
-// import { LineChart } from "@mui/x-charts";
-// import LineCharts from "./linecharts";
 
 function Chart() {
   return (
@@ -26,10 +23,16 @@ function Chart() {
       <div>
         <p> Unique Visitor</p>
       </div>
-      <div style={{display:'flex', gap:'10px'}}>
-        <div>
-          <button> Month</button>
-          <button> Month</button>
+      <div
+        style={{
+          display: "flex",
+          gap: "10px",
+          justifyContent: "space-between",
+        }}
+      >
+        <div className="flex gap-2">
+          <Button sx={{ padding: "4px" }}> Week</Button>
+          <Button sx={{ padding: "4px" }}> Month</Button>
         </div>
         <div>
           <p> Income Overview</p>

@@ -51,6 +51,7 @@ const Yellowchart = () => {
         </div>
       </div>
       <LineChart
+      className="___react"
         // xAxis={[{ data: [1, 2, 3, 5, 8, 10] }]}
         series={[
           {
